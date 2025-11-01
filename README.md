@@ -16,6 +16,7 @@ This trap implements the ITrap interface from the Drosera protocol and can be co
 // 💸 Triggers automated payouts via the linked Response contract
 // 🔒 Immutable parameters for deterministic execution
 // 🧾 Fully compliant with ITrap interface
+```
 
 # Drosera Trap Foundry Template
 
