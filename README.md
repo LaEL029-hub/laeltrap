@@ -1,3 +1,22 @@
+# 🧠 InsurancePegTrap
+
+## Overview
+
+InsurancePegTrap is a *Drosera-compatible trap* designed to monitor an on-chain price oracle and automatically trigger a *parametric payout* if a stablecoin remains below a specified threshold for a defined duration.
+
+This trap implements the ITrap interface from the Drosera protocol and can be connected to any *Drosera Operator Network* for decentralized, verifiable automation.
+
+---
+
+## ⚙ Key Features
+
+```solidity
+// 🧩 Monitors an external price oracle via timeBelow()
+// 🕒 Detects prolonged depegs using a configurable threshold and time window
+// 💸 Triggers automated payouts via the linked Response contract
+// 🔒 Immutable parameters for deterministic execution
+// 🧾 Fully compliant with ITrap interface
+
 # Drosera Trap Foundry Template
 
 This repo is for quickly bootstrapping a new Drosera project. It includes instructions for creating your first trap, deploying it to the Drosera network, and updating it on the fly.
